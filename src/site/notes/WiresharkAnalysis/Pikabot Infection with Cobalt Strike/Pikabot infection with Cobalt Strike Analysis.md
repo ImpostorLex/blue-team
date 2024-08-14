@@ -13,7 +13,7 @@ The initial exploitation based on the packet capture alone is not shown but it c
 - GET request to tsdandassociates
 - The requested resource is a gzip
 
-![](/img/user/images/Pasted image 20240813093431.png)
+![Pasted image 20240813093431.png](/img/user/images/Pasted%20image%2020240813093431.png)
 
 - Another GET request with a parameter to `tsdandassociates[.]co[.]sz/w0ks//?YO=1702920835` - based on the packet capture the user was redirected after a delay of 3 seconds probably to download the malware.
 
@@ -23,8 +23,8 @@ The initial exploitation based on the packet capture alone is not shown but it c
 
 - Server then responded with a `TD.zip` file:
 
-![](/img/user/images/Pasted image 20240813095431.png)
-![](/img/user/images/Pasted image 20240813095546.png)
+![Pasted image 20240813095431.png](/img/user/images/Pasted%20image%2020240813095431.png)
+![Pasted image 20240813095546.png](/img/user/images/Pasted%20image%2020240813095546.png)
 
 - The 10.0.0.101 -> 10.0.0.10 SMB connection Path: `\\WIN-BQHVFR3MVSA\IPC$`
 	- LANMAN protocol is found after the connection most likely for discovering files and printers
@@ -35,7 +35,7 @@ The initial exploitation based on the packet capture alone is not shown but it c
 - A TLS handshake iniated by 10.0.0.101 to 13.91.231.123 then termination with FIN 
 - 10.0.0.101 DNS request to shakyastatuestrade[.]com (143.95.249.177) followed by a TLS handshake after that a massive exchange of data, most likely downloading the Pikabot.dll
 
-![](/img/user/images/Pasted image 20240813192514.png)
+![Pasted image 20240813192514.png](/img/user/images/Pasted%20image%2020240813192514.png)
 
 Followed by massive exchanges most likely victim communicating with Pika C2:
 - 149.28.100.66 port 4243 -> 55087 10.0.0.101 
@@ -44,7 +44,7 @@ Followed by massive exchanges most likely victim communicating with Pika C2:
 
 After a list of IP address above looking at the `statistics -> conversation` filter we found this:
 
-![](/img/user/images/Pasted image 20240813201416.png)
+![Pasted image 20240813201416.png](/img/user/images/Pasted%20image%2020240813201416.png)
 
 207.246.99.159 has the most open ports for communication with 10.0.0.101
 
