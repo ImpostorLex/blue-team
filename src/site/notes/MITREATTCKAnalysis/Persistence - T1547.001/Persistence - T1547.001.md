@@ -9,7 +9,7 @@
 - **Atomic Red Team ID**: T1547.001 - Persistence
 - **Description**: Using various techniques to maintain access across system restarts, change credentials or any other interruptions, in this experiment a malware that adds a `.bat` file on the public User's startup folder that creates a reverse shell.
 - **Challenges Encountered & Solution*:
-	- It requires running the script with administrative privilege
+	- It requires running the script with administrative privilege.
 ## Analysis
 ---
 File is added in user's public startup directory, one of the symptoms of a persistence, there are many ways to establish persistence one of the ways is modifying the registry or adding files in the task scheduler:

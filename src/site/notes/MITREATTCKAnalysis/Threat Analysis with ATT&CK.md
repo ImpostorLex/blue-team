@@ -7,8 +7,8 @@
 This will contain all links related to my analysis on each techniques found on MITRE ATT&CK repository. 
 
 The tools used are:
-- Wazuh as my Security Information & Event Management
-- Atomic Red Team to simulate attacks
+- Wazuh as my Security Information & Event Management.
+- Atomic Red Team to simulate attacks.
 - Custom scripts.
 
 ## Analysis
