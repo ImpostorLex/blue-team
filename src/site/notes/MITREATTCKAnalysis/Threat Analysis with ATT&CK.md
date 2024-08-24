@@ -14,6 +14,7 @@ The tools used are:
 ## Analysis
 ---
 - [[MITREATTCKAnalysis/Persistence - T1547.001/Persistence - T1547.001\|Persistence - T1547.001]]
+- [[MITREATTCKAnalysis/Persistence - T1547.001/Malware Download & Incident Response\|Malware Download & Incident Response]]
 
 { .block-language-dataview}
 

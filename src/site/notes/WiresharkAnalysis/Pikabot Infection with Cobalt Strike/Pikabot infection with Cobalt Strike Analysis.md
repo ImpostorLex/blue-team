@@ -2,7 +2,7 @@
 {"dg-publish":true,"permalink":"/wireshark-analysis/pikabot-infection-with-cobalt-strike/pikabot-infection-with-cobalt-strike-analysis/","tags":["pcap"]}
 ---
 
-[[WiresharkAnalysis/Network Malware Analysis\|Network Malware Analysis]]
+[[WiresharkAnalysis/Network Analysis\|Network Analysis]]
 ## Summary
 ---
 The initial exploitation based on the packet capture alone is not shown but it communicates with `tsdandassociates.co.sz` to download `.zip` file to pass a parameter to the same domain, most likely a 'go' signal to download the pikabot from the shakyastatuetrade.com 143.95.249.177 then victim communicates with the C2 using multiple IP address then the cobalt strike traffic at port 443.

@@ -227,5 +227,3 @@ Start-Process -FilePath C:\Users\Public\$name.exe -ArgumentList "-server $server
 ```
 
 ![Pasted image 20240811215918.png](/img/user/images/Pasted%20image%2020240811215918.png)
-
-
