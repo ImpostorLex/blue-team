@@ -9,6 +9,7 @@ To develop a understanding of network patterns by distinguishing normal and mali
 ## Analysis
 ---
 - [[pcapAnalysis/webstrike/WebStrike\|WebStrike]]
+- [[pcapAnalysis/TryHackMe/Teamwork & Directory/Teamwork & Directory\|Teamwork & Directory]]
 - [[pcapAnalysis/Pikabot Infection with Cobalt Strike/Pikabot infection with Cobalt Strike Analysis\|Pikabot infection with Cobalt Strike Analysis]]
 
 { .block-language-dataview}

@@ -35,3 +35,4 @@ port 8080 by finding GET request http packet to the reviews/uploads/image.jpg.ph
 
 /etc/passwd right after a TCP connection or the reverse shell there should be following POST request.
 
+source: cyberdefenders.com
