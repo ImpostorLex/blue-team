@@ -13,6 +13,7 @@ The tools used are:
 
 ## Analysis
 ---
+- [[x/Techniques Simulation Templates\|Techniques Simulation Templates]]
 - [[MITREATTCKAnalysis/Persistence - T1547.001/Persistence - T1547.001\|Persistence - T1547.001]]
 - [[MITREATTCKAnalysis/Persistence - T1547.001/Malware Download & Incident Response Report\|Malware Download & Incident Response Report]]
 
