@@ -15,11 +15,11 @@
 ---
 File is added in user's public startup directory, one of the symptoms of a persistence, there are many ways to establish persistence one of the ways is modifying the registry or adding files in the task scheduler:
 
-![Pasted image 20240811215835.png](/img/user/images/Pasted%20image%2020240811215835.png)
+![Pasted image 20240811215835.png](/img/user/x/images/Pasted%20image%2020240811215835.png)
 
 However the reverse shell or network connection but the command such as `whoami` is detected as well as:
 
-![Pasted image 20240811215850.png](/img/user/images/Pasted%20image%2020240811215850.png)
+![Pasted image 20240811215850.png](/img/user/x/images/Pasted%20image%2020240811215850.png)
 
 ### WAZUH. rule creation
 ---
@@ -50,7 +50,7 @@ chmod 660 common-ports
 
 Should go something like this:
 
-![Pasted image 20240811215904.png](/img/user/images/Pasted%20image%2020240811215904.png)
+![Pasted image 20240811215904.png](/img/user/x/images/Pasted%20image%2020240811215904.png)
 7. Add the rules to detect the attack:
 
 ```XML
@@ -65,7 +65,7 @@ Should go something like this:
 
 Should look something like this:
 
-![Pasted image 20240811215909.png](/img/user/images/Pasted%20image%2020240811215909.png)
+![Pasted image 20240811215909.png](/img/user/x/images/Pasted%20image%2020240811215909.png)
 ## Incident Response
 ---
 - **Incident identification criteria** - file added to startup folder for either the public or users directory.
@@ -226,4 +226,4 @@ Start-Process -FilePath C:\Users\Public\$name.exe -ArgumentList "-server $server
 </group>
 ```
 
-![Pasted image 20240811215918.png](/img/user/images/Pasted%20image%2020240811215918.png)
+![Pasted image 20240811215918.png](/img/user/x/images/Pasted%20image%2020240811215918.png)

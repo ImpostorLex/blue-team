@@ -7,7 +7,7 @@
 ---
 This is a project of mine for my portfolio, it will showcase how to build to fully functional, it consists of Active Directory, Wazuh as my SIEM and EDR, 2 Windows Client, 1 Linux client, and a Kali Linux for attacking simulations:
 
-![Pasted image 20240929184246.png](/img/user/images/Pasted%20image%2020240929184246.png)
+![Pasted image 20240929184246.png](/img/user/x/images/Pasted%20image%2020240929184246.png)
 Note: Opnsense Firewall configuration will be done on a seperated network due to the homelab includes some bad practices and hardware limitations.
 ## Prerequisite
 ---
