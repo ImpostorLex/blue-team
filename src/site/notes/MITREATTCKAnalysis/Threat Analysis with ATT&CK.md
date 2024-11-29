@@ -3,8 +3,9 @@
 ---
 
 [[README\|README]]
-
-This will contain all links related to my analysis on each techniques found on MITRE ATT&CK repository. 
+### Objective
+---
+Gain a deep understanding of common attacks or techniques performed in the MITRE ATT&CK framework by replicating how the attack is performed and analyzing their execution and impact.
 
 The tools used are:
 - Wazuh as my Security Information & Event Management.
@@ -13,11 +14,11 @@ The tools used are:
 
 ## Analysis
 ---
-- [[x/templates/Techniques Simulation Templates\|Techniques Simulation Templates]]
-- [[MITREATTCKAnalysis/tryhackme/Phishing Campaign by Boogeyman Threat Group\|Phishing Campaign by Boogeyman Threat Group]]
-- [[MITREATTCKAnalysis/tryhackme/Full Attack Chain Analysis - Tempest\|Full Attack Chain Analysis - Tempest]]
+- [[MITREATTCKAnalysis/tryhackme/siem/Phishing Campaign by Boogeyman Threat Group\|Phishing Campaign by Boogeyman Threat Group]]
+- [[MITREATTCKAnalysis/tryhackme/siem/Full Attack Chain Analysis - Tempest\|Full Attack Chain Analysis - Tempest]]
 - [[MITREATTCKAnalysis/Persistence - T1547.001/Persistence - T1547.001\|Persistence - T1547.001]]
 - [[MITREATTCKAnalysis/Persistence - T1547.001/Malware Download & Incident Response Report\|Malware Download & Incident Response Report]]
+- [[MITREATTCKAnalysis/Brute Force - T1110\|Brute Force - T1110]]
 
 { .block-language-dataview}
 
