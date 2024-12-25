@@ -17,7 +17,7 @@ Command and Control also known as C2 is one of the critical component of a cyber
 # Modules
 
 - Take a look at the MITRE emulation plugin.
-- [[C2 Initial Access and Persistence\|C2 Initial Access and Persistence]]
+- [[Zzzz/C2 Initial Access and Persistence\|C2 Initial Access and Persistence]]
 
 # Analysis
 
