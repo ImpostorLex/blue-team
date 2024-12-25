@@ -19,6 +19,7 @@ The tools used are:
 - [[MITREATTCKAnalysis/Persistence - T1547.001/Persistence - T1547.001\|Persistence - T1547.001]]
 - [[MITREATTCKAnalysis/Persistence - T1547.001/Malware Download & Incident Response Report\|Malware Download & Incident Response Report]]
 - [[MITREATTCKAnalysis/Brute Force - T1110\|Brute Force - T1110]]
+- [[MITREATTCKAnalysis/letsdefend/Microsoft SharePoint Server Elevation of Privilege - Possible CVE-2023-29357 Exploitation\|Microsoft SharePoint Server Elevation of Privilege - Possible CVE-2023-29357 Exploitation]]
 
 { .block-language-dataview}
 
