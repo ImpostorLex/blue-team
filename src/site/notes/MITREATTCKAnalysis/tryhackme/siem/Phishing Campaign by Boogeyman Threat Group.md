@@ -14,10 +14,9 @@ Further reports received from other finance department employees that they recei
 - LNKParse3 - a python package for forensic analysis on LNK extensions.
 - Wireshark/Tshark
 - jq - a commandline JSON parser
-
 # Analysis
 
-The artefacts are:
+The artifacts are:
 - dump.eml - the phishing email sent by the threat group.
 - Powershell logs
 - Packet Capture from the compromised workstation.
