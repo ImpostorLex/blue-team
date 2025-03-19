@@ -27,18 +27,3 @@ The purpose of the repository is to showcase blue/red team exercises that I have
 
 
 
-
-![Pasted image 20250317182931.png](/img/user/x/images/Pasted%20image%2020250317182931.png)
-A = 5 + 2 (7)
-B = j : 6
-C = 4 + 3 (7)
-D = 2 (no)
-E = 6 + 3 (9) | 9 + 3 ( 12)
-F =  yes
-G = box9 (6)
-
-1 = 19 
-1= 19 + 12 (22)
-
-Justin  (both) Perl and C#
-
