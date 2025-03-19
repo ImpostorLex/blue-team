@@ -2,7 +2,7 @@
 {"dg-publish":true,"permalink":"/mitreattck-analysis/splunk-bots-v1/","tags":["mitre"]}
 ---
 
-[[MITREATTCKAnalysis/Threat Analysis with ATT&CK\|Threat Analysis with ATT&CK]]
+[[MITREATTCKAnalysis/Threat Analysis\|Threat Analysis]]
 
 **Indexes:**
 ```C

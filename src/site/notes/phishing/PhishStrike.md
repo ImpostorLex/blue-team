@@ -2,7 +2,7 @@
 {"dg-publish":true,"permalink":"/phishing/phish-strike/","tags":["phishing"]}
 ---
 
-[[Challenges TimeKeeping\|Challenges TimeKeeping]]
+[[phishing/Phishing Analysis\|Phishing Analysis]]
 ### Initial Triage
 ---
 At first glance, it looks legitimate however hovering the links shows an IP address:

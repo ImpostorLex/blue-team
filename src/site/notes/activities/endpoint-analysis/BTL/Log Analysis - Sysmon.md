@@ -2,7 +2,7 @@
 {"dg-publish":true,"permalink":"/activities/endpoint-analysis/btl/log-analysis-sysmon/","tags":["mitre"]}
 ---
 
-[[MITREATTCKAnalysis/Threat Analysis with ATT&CK\|Threat Analysis with ATT&CK]]
+[[MITREATTCKAnalysis/Threat Analysis\|Threat Analysis]]
 ### Case Description
 ---
 You are provided with Sysmon logs from a compromised endpoint. Analyse the logs to find out the steps and techniques used by the attacker.

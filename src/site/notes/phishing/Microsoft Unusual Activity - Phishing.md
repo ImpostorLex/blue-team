@@ -2,9 +2,8 @@
 {"dg-publish":true,"permalink":"/phishing/microsoft-unusual-activity-phishing/","tags":["phishing"]}
 ---
 
-[[phishing/Phishing Analysis\|Phishing Analysis]] | [[phishing/Microsoft Unusual Activity - Phishing#Unformatted Report (Initial Investigation)\|Jump to unformatted investigation]]
-Headers
-======================================
+[[phishing/Phishing Analysis\|Phishing Analysis]] 
+# Headers
 Date: Tue, 31 Oct 2023 10:10:04 -0900
 Subject: Your account has been flagged for unusual activity
 
@@ -21,14 +20,12 @@ Resolve Host: mail-am6eur05on2060.outbound.protection.outlook.com
 
 Message-ID: <JMrByPl2c3HBo8SctKnJ5C5Gp64sPSSWk76p4sjQ@s6>
 
-URLs
-=======================================
+# URLs
 hxxps[://]0[.]232[.]205[.]92[.]host[.]secureserver[.]net/lclbluewin08812/
-Description
-======================================
+# Description
 The email claims that Microsoft Outlook Team flagged the receiver's account due to unusual activity and if left ignored for 24 hours the account will be suspended however the sender's email address did not match with Microsoft's Outlook domain.
-Artifact Analysis
-======================================
+# Artifact Analysis
+
 Sender Analysis:
 
 ![SOC 101 - Challenge 1.png](/img/user/phishing/images/SOC%20101%20-%20Challenge%201.png)
@@ -110,8 +107,7 @@ Using [VirusTotal](virustotal.com) against the domain flagged the site as phishi
 
 ![SOC 101 Phishing - Challenge 1-12.png](/img/user/phishing/images/SOC%20101%20Phishing%20-%20Challenge%201-12.png)
 In conclusion, It is safe to say that this email is indeed malicious and it make use of legitimate services such as Outlook.com and even using a `.edu` email address.
-Verdict
-======================================
+# Verdict
 The email came from a legitimate service Microsoft Outlook and even used a `.edu` address which is commonly used for education however the email claims that they are the Outlook support team with a mismatching sender's email address and a non Microsoft Outlook URL. 
 
 hxxps[://]0[.]232[.]205[.]92[.]host[.]secureserver[.]net/lclbluewin08812/
@@ -122,11 +118,17 @@ Analyzing the provided URL using [urlscan.io](urlscan.io) shows that it is not m
 VirusTotal flagged the website as phishing:
 
 ![SOC 101 Phishing - Challenge 1-12.png](/img/user/phishing/images/SOC%20101%20Phishing%20-%20Challenge%201-12.png)
+### Indicators of Compromise
+---
+- social201511138[@]social.helwan.edu.eg
+- hxxps[://]0[.]232[.]205[.]92[.]host[.]secureserver[.]net/lclbluewin08812/
 
-Defense Actions
-======================================
-- Since the attacker make uses of legitimate services such as GoDaddy and Microsoft Outlook to perform it's attack even using a `.edu` address blocking the email service provider and the sender's email address is not recommended, the SENDER exact email address should be blocked using email gateway.
-- Since the URL is highly unlikely will be visited by any employee in the organization, the domain or URL can be blocked using EDR, Firewall and Web Proxy.
+
+# Defense Actions & Recommendations
+
+- Since the attacker make uses of legitimate services such as GoDaddy and Microsoft Outlook to perform it's attack and even used a `.edu` address blocking the email service provider and the sender's email address is not recommended, the **SENDER** exact email address should be blocked using email gateway.
+- Since the URL (hxxps[://]0[.]232[.]205[.]92[.]host[.]secureserver[.]net/lclbluewin08812/) is highly unlikely will be visited by any employee in the organization or even need to, the domain or URL can be blocked in Endpoint Detection Response systems , Firewall and Web Proxy.
+- User awareness training and conduct phishing simulation.
 
 ## Unformatted Report (Initial Investigation)
 ----

@@ -2,7 +2,7 @@
 {"dg-publish":true,"permalink":"/pcap-analysis/simulating-command-and-control-attack-and-defend/"}
 ---
 
-[[Zzzz/Homelab Topology\|Homelab Topology]]
+[[zzzz/Homelab Topology\|Homelab Topology]]
 ### Introduction
 ---
 Command and Control also known as C2 is one of the critical component of a cyber attacker's operation, this is where the attacker sends instructions to compromised systems, instructions could be anything from data exfiltration to using the compromised system to attack other systems.
@@ -17,7 +17,7 @@ Command and Control also known as C2 is one of the critical component of a cyber
 # Modules
 
 - Take a look at the MITRE emulation plugin.
-- [[Zzzz/C2 Initial Access and Persistence\|C2 Initial Access and Persistence]]
+- [[zzzz/C2 Initial Access and Persistence\|C2 Initial Access and Persistence]]
 
 # Analysis
 

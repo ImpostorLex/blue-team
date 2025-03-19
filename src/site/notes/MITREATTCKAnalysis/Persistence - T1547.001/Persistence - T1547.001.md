@@ -2,7 +2,7 @@
 {"dg-publish":true,"permalink":"/mitreattck-analysis/persistence-t1547-001/persistence-t1547-001/","tags":["mitre"]}
 ---
 
-[[MITREATTCKAnalysis/Threat Analysis with ATT&CK\|Threat Analysis with ATT&CK]]
+[[MITREATTCKAnalysis/Threat Analysis\|Threat Analysis]]
 ### Summary
 ---
 ### Initials
