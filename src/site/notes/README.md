@@ -9,12 +9,12 @@ The purpose of the repository is to showcase blue/red team exercises that I have
 
 - See [[pcapAnalysis/Network Analysis\|Network Traffic Analysis]]
 - See [[MITREATTCKAnalysis/Threat Analysis\|Threat Analysis]]
-- See [[MalwareAnalysis/Malware Analysis\|MalwareAnalysis/Malware Analysis]]
+- See [[MalwareAnalysis/Malware Analysis\|Malware Analysis]]
 - See [[endpoint-security/Endpoint Security\|Endpoint Security]]
 - See [[phishing/Phishing Analysis\|Phishing Analysis]]
 - See [[google-cloud/Google Cloud\|Google Cloud]] 
 
-### Documentation & Report Writing
+### Documentation & Report Writing Sample
 ---
 
 - [Wannacry Malware analysis @ Medium](https://medium.com/@alexxmacenas/malware-analysis-report-of-wannacry-4e7754137e74)

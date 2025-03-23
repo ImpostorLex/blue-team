@@ -11,6 +11,7 @@ Familiarize with how cloud computing works to get a better understanding how the
 - [[google-cloud/Cloud Shell and gcloud\|Cloud Shell and gcloud]]
 - [[google-cloud/GCP - Creating a Virtual Machine\|GCP - Creating a Virtual Machine]]
 - [[google-cloud/GCP - Deploy a Windows Server then RDP into it.\|GCP - Deploy a Windows Server then RDP into it.]]
+- [[google-cloud/GCP - Implementing Load Balancing on Compute Engine\|GCP - Implementing Load Balancing on Compute Engine]]
 
 { .block-language-dataview}
 
